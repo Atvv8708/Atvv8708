@@ -1,0 +1,68 @@
+.bg-image1 {
+    background-image: url("../img/slide-1.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image2 {
+    background-image: url("../img/cta-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(228, 222, 222, 0.178);
+}
+
+a.hover-1 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-1:hover {
+    color: red!important;
+}
+.card {
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.card:hover {
+    transform: translateY(-15px);
+}
+.card1 {
+    cursor: pointer;
+    transition: ease 0.7s;
+}
+.card1:hover {
+    transform: translateY(-10px);
+}
+.border-secondary {
+    border-color: rgb(201, 197, 197);
+}
+.px-6 {
+    padding-left: 12rem;  /* Добавляет отступ слева */
+    padding-right: 12rem; /* Добавляет отступ справа */
+}
+
+.mx-6 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.py-6 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.pb-6 {
+    padding-bottom: 64px;
+}
+.pb-7 {
+    padding-bottom: 128px;
+}
+h1 {
+    font-family: 'Oswald', serif;
+  }
